@@ -1,19 +1,17 @@
-function home()
-{
-    window.location.href = 'http://localhost:8000/'
+// index.js
+function home() {
+    console.log('Function home() is called');
+    window.location.href = '/';
 }
 
-function newest()
-{
-    window.location.href = 'http://localhost:8000/newest'
+function newest() {
+    window.location.href = '/newest';
 }
 
-function popular()
-{
-    window.location.href = 'http://localhost:8000/popular'
+function popular() {
+    window.location.href = '/popular';
 }
 
-function rated()
-{
-    window.location.href = 'http://localhost:8000/rated'
+function rated() {
+    window.location.href = '/rated';
 }
