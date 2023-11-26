@@ -15,6 +15,12 @@ nav {
     cursor: pointer;
 }
 
+.card-name
+{
+    font-size: x-large;
+    font-weight: bold;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -67,5 +73,5 @@ nav {
 
 .button
 {
-    
+    size: 16px;
 }

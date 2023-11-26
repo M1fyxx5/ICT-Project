@@ -4,6 +4,12 @@ function home() {
     window.location.href = '/';
 }
 
+function about_us()
+{
+    // about-us page is not yet ready
+    //window.parent.location.href = '/about_us';
+}
+
 function newest() {
     window.location.href = '/newest';
 }
