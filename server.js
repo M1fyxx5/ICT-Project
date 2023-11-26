@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 // /about-us
 app.get('/about_us', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'info', 'about_us.html'));
-})
+});
 
 // /newest page
 app.get('/newest', (req, res) => {
@@ -38,6 +38,11 @@ app.get('/popular', (req, res) => {
 // /rated page
 app.get('/rated', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'rated.html'));
+});
+
+// /log-in
+app.get('/login', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'user_storage', 'login.html'));
 });
 
 // waking up

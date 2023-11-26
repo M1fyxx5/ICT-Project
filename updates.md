@@ -2,7 +2,7 @@
 
 ## Rules on how to write change/update log
 
-1. Write a date in US format e.g. month.date.year
+1. Write a date in **US format** e.g. month.date.year
 2. User name is required in update entry
 3. It is important to mark all Changes/Improvements and Issues
 4. If many users did changes in one day, last user should mark his name in the same raw there he wrote what he did
@@ -20,6 +20,9 @@
 - Since now server is running on `http://localhost:3000/`
 - Added *logging* in console
 - Created **readme.md** created in main directory
+- All dependencies match the latest package versions :D
+- Login directory is now *available*
+- Added **readme.md** entry on how to wake up a server
 
 ### Issues
 
