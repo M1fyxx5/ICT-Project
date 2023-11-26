@@ -1,4 +1,4 @@
-# Change logging
+# Change log
 
 ## Rules on how to write change/update log
 
