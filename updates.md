@@ -11,7 +11,7 @@
 
 ## Update 11.26.23 ~ mify
 
-### Improvements
+### Improvements 11.26
 
 - 'Optimized navigation bar'
 - 'Navigation bar is now available on any web-site directory'
@@ -24,10 +24,23 @@
 - Login directory is now *available*
 - Added **readme.md** entry on how to wake up a server
 
-### Issues
+### Issues 11.26
 
 - Navigation bar's code is repeated in each page file *Memory & readability issue*
 - There is no need in index.js file *Requires optimization*
 - Inapropriate file locations *Writability issues*
 - **Logs** should be stored in additional file *Not that important*
 - **readme.md** *must have* filled with contents such as project explanation, roadmap, features that are already *implemented*  
+
+## Update 11.27.23 ~ mify
+
+### Improvements 11.27
+
+- index.js *removed*
+- **login.html** is up & running
+
+### Issues 11.27
+
+- Everything since **11.26**
+- *PLUS*
+- Bad **Read more** button implementation *Requires optimistaition* *IMPORTANT!!!*
