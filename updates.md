@@ -1,4 +1,4 @@
-# Change logging
+# Change log
 
 ## Rules on how to write change/update log
 
@@ -19,7 +19,7 @@
 - **about_us.html** is up & running
 - Since now server is running on `http://localhost:3000/`
 - Added *logging* in console
-- Created **readme.md** created in main directory
+- Created **readme.md** in main directory
 - All dependencies match the latest package versions :D
 - Login directory is now *available*
 - Added **readme.md** entry on how to wake up a server
