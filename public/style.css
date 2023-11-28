@@ -1,64 +1,78 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    overflow: hidden;
-    overflow-x: hidden;
-}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;600;700&display=swap');
 
-nav {
-    background-color: #000000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    cursor: pointer;
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .topnav {
   overflow: hidden;
   background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  transition: box-shadow 0.5s;
 }
+.topnav:hover{box-shadow: 4px 12px 16px 4px rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
 
 .topnav a {
+  font-weight: 700;
+  font-size: 20px;
   float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #ffffff;
   color: black;
 }
 
-.topnav a.active {
-  background-color: #e8fff7;
-  color: white;
-}
-
-.card-name
-{
-    font-size: x-large;
-    font-weight: bold;
+.card-name {
+  font-weight:700;
+  font-size: 36px;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
-.cards
-{
-    font-family: 'Courier New', Courier, monospace;
+.cards,
+.card-text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:300;
+  font-size: 20px;
 }
 
-.card-text
-{
-    font-family: 'Courier New', Courier, monospace;
+.button {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:300;
+  font-size: 20px;
+
+  background-color: #000000;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
 }
 
-.button
-{
-    size: 16px;
+.button:hover{
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }

@@ -44,3 +44,25 @@
 - Everything since **11.26**
 - *PLUS*
 - Bad **Read more** button implementation *Requires optimistaition* *IMPORTANT!!!*
+
+## Update 11.28.23 ~ mify
+
+### Improvements 11.28
+
+- UI Update
+
+1. New font - *Josefin Sans*
+2. Logo was replaced with text
+3. Added several Material Design icons
+4. Added shadows & transitions
+5. Implemented new button design
+
+- **style.css** was optimised
+
+### Issues 11.28
+
+- Follow for 11.27 and 11.26
+- *PLUS*
+- Material Design icons are incorrectly sized *UI issues* **IMORTANT!!!!!!**
+- Requires `<Head>` optimization
+- Requires `<nav>` optimization **IMPORTANT!!!!!**
